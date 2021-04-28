@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <!-- favicon hamburguesita xd -->
+        <link rel="shortcut icon" href="img/logo.png">
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- gGoogle fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+        <!-- fuente poppins para texto-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+            <!-- peguen esta fuente en CSS cuando vayan a escribir XD
+                para titulo:     font-family: 'Open Sans', sans-serif;
+                para sub titulo: font-family: 'Heebo', sans-serif;
+                para texto:      font-family: 'Poppins', sans-serif;
+
+                            
+            -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+
+        <title>Inicio | Trucky Chef 🍔</title>
+    </head>
+    <body>
+
+
+        <!-- menú navegación NAV -->
+        <header class="header">
+          <a href="index.html" class="header__logo">Trucky Chef</a>
+
+          <i class='bx bx-menu header__toggle' id="header-toggle"></i>
+
+          <nav class="nav" id="nav-menu">
+              <div class="nav__content bd-grid">
+                  <a href="index.html" class="nav__perfil">
+                      <div class="nav__img">
+                          <img src="img/logo.png" alt="">
+                      </div>
+
+                      <div>
+                          <span class="nav__name">Trucky Chef</span>
+                      </div>
+                  </a>
+
+                  <div class="nav__menu">
+                      <ul class="nav__list">
+                          <li class="nav__item"><a href="index.html" class="nav__link active">Inicio</a></li>
+
+                          <li class="nav__item dropdown">
+                              <a href="#menu" class="nav__link dropdown__link">Menú</a>
+
+                          </li>
+
+                          <li class="nav__item"><a href="galeria.html" class="nav__link">Galería</a></li>
+          <!-- fin menu navegacion NAV -->
+
+
+
+          <!--inicio Menu navegacion SMARTPHONE -->
+                          <li class="nav__item dropdown">
+                              <a href="#" class="nav__link dropdown__link">Acerca de <i class='bx bx-chevron-down dropdown__icon'></i></a>
+
+
+                              <ul class="dropdown__menu">
+                                  <li class="dropdown__item"><a href="chef.html" class="nav__link">Chef Jhony</a></li>
+                                  <li class="dropdown__item"><a href="ubicacion.html" class="nav__link">Ubicación</a></li>
+                                  <li class="dropdown__item"><a href="team.html" class="nav__link">Team</a></li>
+                              </ul>
+                          </li>
+
+                          
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+      </header>
+
+          <!-- FIN menu navegacion smartphone xd -->
+
+          <!--===== MAIN JS =====-->
+          <script src="js/main.js"></script>
+
+      <!-- fin del whole Navigation bar xd -->
+
+       <!-- INICIO DEL SLIDER-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+       <div class="slider">
+
+        <ul>
+          <li id="slider01"><img src="https://www.hogar.mapfre.es/media/2018/09/hamburguesa-sencilla.jpg" alt=""></li>
+          <li id="slider02"><img src="https://d1ralsognjng37.cloudfront.net/d3866cdc-3714-4755-940c-cebfdc720f94" alt=""></li>
+          <li id="slider03"><img src="https://scontent.fsal3-1.fna.fbcdn.net/v/t1.6435-9/121473196_192926732421083_8466966809261265062_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=MnWZwUpOVMgAX85aGBO&_nc_ht=scontent.fsal3-1.fna&oh=2e8fb0b28108d64f4120f279009091ea&oe=6095788A" alt=""></li>
+          <li id="slider04"><img src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2018/09/receta-super-facil-de-carne-para-hamburguesa-suave.jpg" alt=""></li>
+        </ul>
+    
+      </div>
+    
+      <div>
+        <ul class="puntitos">
+          <li>
+            <a href="#slider01">1</a>
+          </li>
+          <li>
+            <a href="#slider02">2</a>
+          </li>
+          <li>
+            <a href="#slider03">3</a>
+          </li>
+          <li>
+            <a href="#slider04">4</a>
+          </li>
+        </ul>
+      </div>
+    
+    
+     <!-- FIN DEL SLIDER-->
+
+        <!-- cajitas -->
+        <h1 id="menu">MENÚ</h1>
+        <main>
+          <section class="cards" id="filas">
+            <!-- fila 1  -->
+            <div class="card">
+              <div class="fila1">
+
+              <div class="card__image-container">
+                <img
+                  src="https://scontent.fsal3-1.fna.fbcdn.net/v/t1.6435-9/121368488_192926752421081_894173500291840276_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=_5SNSLM3dRoAX8rrDpw&_nc_ht=scontent.fsal3-1.fna&oh=3b5cc2605f3ccda93704ff6c57166158&oe=6094CF4B"
+                  alt="Detailed image description would go here."
+                />
+              </div>
+              <div class="card__content">
+                <p class="card__title text--medium">
+                  TORTA JAMÓN QUESO Y SALCHICHA
+                </p>
+                <div class="card__info">
+                 
+                  <p class="card__price text--medium">$1.99</p>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="card fila1">
+              <div class="fila1">
+              <div class="card__image-container">
+                <img
+                  src="https://scontent.fsal3-1.fna.fbcdn.net/v/t1.6435-9/121473196_192926732421083_8466966809261265062_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=MnWZwUpOVMgAX85aGBO&_nc_ht=scontent.fsal3-1.fna&oh=2e8fb0b28108d64f4120f279009091ea&oe=6095788A"
+                  alt="Detailed image description would go here."
+                />
+              </div>
+              <div class="card__content">
+                <p class="card__title text--medium">
+                  HOT DOG CON ESCABECHE
+                </p>
+                <div class="card__info">
+                  
+                  <p class="card__price text--medium">$1.00</p>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="fila1">
+              <div class="card__image-container">
+                <img
+                  src="https://scontent.fsal3-1.fna.fbcdn.net/v/t1.6435-9/121468041_192926099087813_4334295410977432919_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=e4u4qkXAFUoAX_Oy4jx&_nc_ht=scontent.fsal3-1.fna&oh=5cff38b0c5fe2a4536a7f9485fc2b118&oe=60955E5A"
+                  alt="Detailed image description would go here."
+                />
+              </div>
+              <div class="card__content">
+                <p class="card__title text--medium">
+                  HAMBURGUESA SENCILLA
+                </p>
+                <div class="card__info">
+                 
+                  <p class="card__price text--medium"  >$1.75 
+                   </p>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- fila 2 -->
+            <div class="card">
+              <div class="fila2">
+              <div class="card__image-container">
+                <img
+                  src="https://scontent.fsal3-1.fna.fbcdn.net/v/t1.6435-9/121386718_192917999088623_2777793737502951082_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=xFrLBz292asAX8OusgZ&_nc_ht=scontent.fsal3-1.fna&oh=8d434d71f955cc35f34475089ebe536b&oe=60963968"
+                  alt="Escabeche de sebolla"
+                />
+              </div>
+              <div class="card__content">
+                <p class="card__title text--medium">
+                  ESCABECHE DE CEBOLLA 
+                </p>
+                <div class="card__info">
+                  
+                  <p class="card__price text--medium">$2.00</p>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="fila2">
+              <div class="card__image-container">
+                <img
+                  src="https://scontent.fsal3-1.fna.fbcdn.net/v/t1.6435-9/118816034_177470870633336_8561891716007048327_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=bsIj66n1aqIAX8jUq67&_nc_oc=AQmZErGoFWLE_oRayYA1emxgk_XPkxLnccAjfETezfqYCERjrI4SrtSp1lHm-t1-zpE&_nc_ht=scontent.fsal3-1.fna&oh=7211d22f9c2f13505f09e68589f46f4f&oe=60979015"
+                  alt="Detailed image description would go here."
+                />
+              </div>
+              <div class="card__content">
+                <p class="card__title text--medium">
+                  MEGA TORTA
+                </p>
+                <div class="card__info">
+                
+                  <p class="card__price text--medium">$2.50</p>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="fila2">
+              <div class="card__image-container">
+                <img
+                  src="https://scontent.fsal3-1.fna.fbcdn.net/v/t1.6435-9/120202464_187020906344999_7797837244498365668_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=8KW9H3EFW2cAX_j8bfN&_nc_ht=scontent.fsal3-1.fna&oh=067ed1102dd925e1dae414ff2f34b788&oe=60972B5F"
+                  alt="Detailed image description would go here."
+                />
+              </div>
+              <div class="card__content">
+                <p class="card__title text--medium">
+                  HAMBURGUESA DOBLE
+                </p>
+                <div class="card__info">
+                  <p class="text--medium">30 Min</p>
+                  <p class="card__price text--medium"> 2 x $5.00</p>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- fila 3 -->
+            <div class="card">
+              <div class="fila3">
+              <div class="card__image-container">
+                <img
+                  src="https://scontent.fsal3-1.fna.fbcdn.net/v/t1.6435-9/118999397_179719143741842_2938947382570573704_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=BvfC6Bg4puAAX-9KQP4&_nc_ht=scontent.fsal3-1.fna&oh=18e663405fe10b64579a0204f92cfb1c&oe=609576D4"
+                  alt="Detailed image description would go here."
+                />
+              </div>
+              <div class="card__content">
+                <p class="card__title text--medium">
+                  SUPER HOT DOGS
+                </p>
+                <div class="card__info">
+               
+                  <p class="card__price text--medium"> 2 x $2.50</p>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="fila3">
+              <div class="card__image-container">
+                <img
+                  src="food/burgerdoble.jpeg"
+                />
+              </div>
+              <div class="card__content">
+                <p class="card__title text--medium">
+                 HAMBURGUESA DOBLE
+                </p>
+                <div class="card__info">
+                  
+                  <p class="card__price text--medium">$2.50</p>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="fila3">
+              <div class="card__image-container">
+                <img
+                  src="https://scontent.fsal3-1.fna.fbcdn.net/v/t1.6435-9/120018768_185189416528148_4651663449791420369_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=Tl9HHYofZTwAX8Auoad&_nc_ht=scontent.fsal3-1.fna&oh=ae2b65f08f51c55b5c949f3aaf7e4b8e&oe=60980627"
+                  alt="Detailed image description would go here."
+                />
+              </div>
+              <div class="card__content">
+                <p class="card__title text--medium">
+                  TORTA JAMÓN Y QUESO
+                </p>
+                <div class="card__info">
+                  
+                  <p class="card__price text--medium">$1.50</p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </section>
+        </main>
+
+        <!-- Fin de las cajitas -->
+
+<!-- FOOTER -->
+
+        
+</body>
+<footer class="footer">
+<div class="container-body">
+
+
+
+<div class="colum1">
+
+<h1>Estamos ubicados en</h1>
+<div class="map-responsive">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.3758163270077!2d-89.15574788467538!3d13.69567379038374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f633715e07a575b%3A0x3687f885c7301acb!2sCentro%20%C2%A1Sup%C3%A9rate*21%20ADOC!5e0!3m2!1ses-419!2ssv!4v1616768714687!5m2!1ses-419!2ssv" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+</div>
+
+<div class="colum2">
+
+<h1>Redes Sociales</h1>
+
+
+<div class="row">
+<a title="Facebook" href="https://www.facebook.com/truckychef"><img src="https://www.seminci.es/wp-content/uploads/2017/02/logo-facebook.png" alt="Facebook icon" /></a>
+
+<label> <a  id="foooter" href="https://www.facebook.com/truckychef"> Síguenos en Facebook </a></label>
+
+</div>
+
+<div class="row">
+<a title="WhatsApp" href="https://api.whatsapp.com/send/?phone=50377731021&text&app_absent=0"><img src="https://www.outletgraph.cl/wp-content/uploads/2017/12/icono-blanco-whatsapp.png" /></a>
+
+<label> <a id="foooter" href="https://api.whatsapp.com/send/?phone=50377731021&text&app_absent=0"> Escríbenos en WhatsApp</a> </label>
+
+</div>
+
+<div class="row">
+<a title="Instagram" href="https://instagram.com/truckychef?igshid=1i2e5s7284nc9"><img src="https://www.pngkit.com/png/full/488-4883158_subscribe-to-our-mailing-list-icono-de-instagram.png" alt="Instagram icono" /></a>
+
+
+<label> <a id="foooter" href="https://instagram.com/truckychef?igshid=1i2e5s7284nc9"> Síguenos en Instagram </a></label>
+
+</div>
+
+</div>
+
+<div class="colum3">
+
+<h1 id="ubicacion">Información Adicional</h1>
+
+<div class="row2">
+<a title="WhatsApp" href="https://api.whatsapp.com/send/?phone=50379597417&text&app_absent=0"><img src="https://www.outletgraph.cl/wp-content/uploads/2017/12/icono-blanco-whatsapp.png" /></a>
+
+<label>Ordena AQUÍ <a  id="foooter" href="https://api.whatsapp.com/send/?phone=50377731021&text&app_absent=0">7773-1021</a></label>
+</div>
+
+
+<div class="row2">
+<img src="https://www.entregoya.com/img/2.Home/1.Iconos%20Head/1.Icono_inicio.png">
+
+<label>El negocio Trucky Chef es parte del emprendimiento del chef Johnny Ayala, dentro podrás comprar deliciosas variedades de tortas, hamburguesas y hot dogs. ¡Visítanos ya! </label>
+
+</div>
+
+
+</div>
+
+
+</footer>
+
+<!-- FIN DEL FOOTER -->
+
+<!-- FOOTER2 -->
+<footer id="footer2">
+
+<div class="link">Página web hecha con
+ 
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0H24V24H0z"/><path fill="red" d="M16.5 3C19.538 3 22 5.5 22 9c0 7-7.5 11-10 12.5C9.5 20 2 16 2 9c0-3.5 2.5-6 5.5-6C9.36 3 11 4 12 5c1-1 2.64-2 4.5-2z"/></svg>
+
+por
+
+ <a href="https://www.instagram.com/fuentes_eve93/" target="_blank"> Evelyn Fuentes</a>
+,
+<a href="https://www.fabiomenjivar.cf" target="_blank">Fabio Menjívar </a>
+
+ & 
+ <a href="https://www.instagram.com/garciaavale_/" target="_blank">Valery García</a>
+</div>
+   </footer>
+   <!--  FIN DE FOOTER2 -->
+
+   <!-- jquery -->
+   <script src="js/index.js"></script>
+</html>
+
+
